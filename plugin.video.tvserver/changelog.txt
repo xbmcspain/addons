@@ -1,0 +1,10 @@
+v1.1.0.75  Add workaround for stoptimeshift. Plugin looses its handle (handle=-1, don't know why yet) and can't load its settings.
+           Added a fallback to localhost:9596
+v1.1.0.70  Add StopTimeshift entry to channel list
+v1.0.0.57  Fix plugin for 9.x SVN releases without revision info
+v1.0.0.56  Fix getSettings for PRE-10 releases without SVN revision numbers
+v1.0.0.55  Add addon.xml file
+v1.0.0.34  - New setting for recording playback: smb, local or rtsp stream
+           - Various bugfixes + extra exception handling for different date/time formatting
+           - Dutch translation added
+v1.0.0.22  Fixes for the new XBMC addon framework for PRE-10. and higher

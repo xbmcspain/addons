@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30000">Nombre de host del TVServer</string>
+    <string id="30001">Puerto del TVServer</string>
+    <string id="30002">Utilizar para la reproducción de grabaciones</string>
+    <string id="30003">Compartir grabaciones del TVServer por SMB</string>
+    <string id="30004">Usar clasificación extendida para las grabaciones</string>
+</strings>

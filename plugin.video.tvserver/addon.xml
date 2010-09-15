@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tvserver"
+       name="MediaPortal TVServer"
+       version="1.1.0.75"
+       provider-name="Prashant V, Marcel Groothuis">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>20000</minversion>
+    <summary>MediaPortal TVServer</summary>
+    <summary lang="es">TVServer de MediaPortal</summary>
+    <description>Python plugin to use the MediaPortal TVServer in XBMC without the PVR addon.</description>
+    <description lang="es">Plugin para utilizar el TVServer de MediaPortal en el XBMC sin el uso del addon de PVR.</description>
+    <description lang="nl">Python plugin om de MediaPortal TVServer in XBMC te gebruiken zonder PVR addon.</description>
+  </extension>
+</addon>

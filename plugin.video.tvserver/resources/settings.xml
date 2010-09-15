@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   <setting id="mptvserver" type="text" label="30000" default="127.0.0.1"/>
+   <setting id="mptvport" type="integer" label="30001" default="9596"/>
+   <setting id="mprecplayback" type="enum" label="30002" values="SMB share|local|rtsp" default="2"/>
+   <setting id="mpsharename" type="text" label="30003" default="mediaportal"/>
+   <setting id="extsort" type="bool" label="30004" default="true"/>
+</settings>
