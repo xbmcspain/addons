@@ -15,8 +15,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Play Karaoke videos from KaraokePlay.com</summary>
     <description lang="en">KaraokePlay has thousands of karaoke videos from youtube indexed. This allows you to browse and play them from xbmc.</description>
-    <summary lang="es">Vídeos de karaoke desde KaraokePlay.com</summary>
-    <description lang="es">KaraokePlay tiene miles de vídeos de karaoke indexados en Youtube. Esto te permite navegar y jugar desde XBMC.</description>
+    <summary lang="es">VÃ­deos de karaoke desde KaraokePlay.com</summary>
+    <description lang="es">KaraokePlay tiene miles de vÃ­deos de karaoke indexados en Youtube. Esto te permite navegar y jugar desde XBMC.</description>
     <platform>all</platform>
   </extension>
 </addon>
