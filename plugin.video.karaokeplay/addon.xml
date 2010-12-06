@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.karaokeplay"
+       name="KaraokePlay"
+       version="1.0"
+       provider-name="dagur">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="plugin.video.youtube" version="1.8.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Play Karaoke videos from KaraokePlay.com</summary>
+    <description lang="en">KaraokePlay has thousands of karaoke videos from youtube indexed. This allows you to browse and play them from xbmc.</description>
+    <summary lang="es">Vídeos de karaoke desde KaraokePlay.com</summary>
+    <description lang="es">KaraokePlay tiene miles de vídeos de karaoke indexados en Youtube. Esto te permite navegar y jugar desde XBMC.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
