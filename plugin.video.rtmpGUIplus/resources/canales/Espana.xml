@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<streams>
+<stream>
+<id>1</id>
+<title><![CDATA[Actualizado: 31/05/2013]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://nicholaskreidberg.com/wp-content/uploads/2012/01/update_apple.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c82</id>
+<title><![CDATA[La 1]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.rtve.es/swf/4.1.11/RTVEPlayerVideo.swf]]></swfUrl>
+<link><![CDATA[rtmp://cp68975.live.edgefcs.net:1935/live]]></link>
+<pageUrl><![CDATA[http://www.rtve.es/noticias/directo-la-1]]></pageUrl>
+<playpath><![CDATA[LA1_AKA_WEB_NOG@58877]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://msabanda.eresmas.com/por/tv1.png</logourl>
+<epgid>elmundo:3</epgid>
+</stream>
+<stream>
+<id>867b8c82</id>
+<title><![CDATA[La 1 opcion 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.22.223.52/live/la1lacajatv?id=24785]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1000px-Logo_TVE-1.svg.png</logourl>
+<epgid>elmundo:3</epgid>
+</stream>
+<stream>
+<id>867e1a82</id>
+<title><![CDATA[La 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.rtve.es/swf/4.1.16/RTVEPlayerVideo.swf]]></swfUrl>
+<link><![CDATA[rtmp://cp68975.live.edgefcs.net:1935/live]]></link>
+<pageUrl><![CDATA[http://www.rtve.es/television/la-2-directo/]]></pageUrl>
+<playpath><![CDATA[LA2_AKA_WEB_NOG@60554]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/702px-Logo_TVE-2.svg.png</logourl>
+<epgid>elmundo:4</epgid>
+</stream>
+<stream>
+<id>867b8c8g</id>
+<title><![CDATA[Antena 3]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://player.longtailvideo.com/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://antena3fms35livefs.fplive.net/antena3fms35live-live/stream-antena3]]></link>
+<pageUrl><![CDATA[http://www.antena3.com/directo/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/antena3.png</logourl>
+<epgid>elmundo:2</epgid>
+</stream>
+<stream>
+<id>867b8c8g</id>
+<title><![CDATA[Antena 3 opcion2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://173.192.223.68/live/antena3lacajatv?id=15116]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/antena3.png</logourl>
+<epgid>elmundo:2</epgid>
+</stream>
+<stream>
+<id>867b8c8h</id>
+<title><![CDATA[Cuatro]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.37.222.57/live/cuatrolacajatv?id=14756]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/cuatro.png</logourl>
+<epgid>elmundo:496</epgid>
+</stream>
+<stream>
+<id>867b8c8p</id>
+<title><![CDATA[Telecinco HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.7.28.234/live]]></link>
+<pageUrl><![CDATA[http://www.castamp.com]]></pageUrl>
+<playpath><![CDATA[t5hdlacajatv2]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png</logourl>
+<epgid>elmundo:1</epgid>
+</stream>
+<stream>
+<id>867b8c8b</id>
+<title><![CDATA[La Sexta]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://antena3fms35geobloqueolivefs.fplive.net:1935/antena3fms35geobloqueolive-live/stream-lasexta]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://estaticos04.cache.el-mundo.net/elmundo/iconos/v2.1/television/logos/med/lasexta.gif</logourl>
+<epgid>elmundo:510</epgid>
+</stream>
+<stream>
+<id>867b8c8b</id>
+<title><![CDATA[La Sexta HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://173.193.242.248/live/lasextalacaja?id=156528]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://estaticos04.cache.el-mundo.net/elmundo/iconos/v2.1/television/logos/med/lasexta.gif</logourl>
+<epgid>elmundo:510</epgid>
+</stream>
+<stream>
+<id>867b8c92</id>
+<title><![CDATA[La Sexta 3]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://109.123.126.28/live/lasexta3lacaja?id=15912]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK]]></advanced>
+<logourl>http://www.lasexta.com/static/images/sexta3_logo.png</logourl>
+<epgid>elmundo:673</epgid>
+</stream>
+<stream>
+<id>867b8c8b</id>
+<title><![CDATA[La Siete]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.22.223.51/live/rinconsiete?id=42551]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/3/36/LaSiete_2012.png</logourl>
+<epgid>elmundo:507</epgid>
+</stream>
+<stream>
+<id>867b8c8b</id>
+<title><![CDATA[La Nueve]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ezcast.tv/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://146.185.25.228/live/nuevitoezcast?id=2825]]></link>
+<pageUrl><![CDATA[http://www.ezcast.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/6/66/Nueve_Mediaset.jpg</logourl>
+<epgid>elmundo:761</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Fox SD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://149.255.37.162/stream/Foxpon?id=93430]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1000px-FOX_wordmark-orange.svg.png</logourl>
+<epgid>elmundo:202</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Fox HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://149.255.37.162/stream/Foxpon?id=93430]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1000px-FOX_wordmark-orange.svg.png</logourl>
+<epgid>elmundo:202</epgid>
+</stream>
+<stream>
+<id>861t8c8t</id>
+<title><![CDATA[24Horas]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.rtve.es/swf/4.1.20/RTVEPlayerVideo.swf]]></swfUrl>
+<link><![CDATA[rtmp://rtvefs.fplive.net:1935/rtve-live-live?ovpfv=2.1.2]]></link>
+<pageUrl><![CDATA[http://www.rtve.es/]]></pageUrl>
+<playpath><![CDATA[RTVE_24H_LV3_WEB_NOG]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced>swfVfy=true</advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/200px-Logo_TVE-24h.svg.png</logourl>
+<epgid>elmundo:8</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Divinity]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmp://204.45.157.234/live/discomaxlacajatv]]></link>
+<pageUrl><![CDATA[http://www.castamp.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/0/06/Divinity_2012.png</logourl>
+<epgid>elmundo:697</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Energy]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmpe://50.7.28.146/live/lacajatvenergy]]></link>
+<pageUrl><![CDATA[http://www.castamp.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/9/93/Energy_2012.png</logourl>
+<epgid>elmundo:709</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Syfy]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.36.146.69/stream/SYFY1234?id=93427]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/a/ab/Syfylogo.png</logourl>
+<epgid>elmundo:520</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[13 TV HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://static.hollybyte.com/public/players/flowplayer/swf/flowplayer.commercial.swf]]></swfUrl>
+<link><![CDATA[rtmp://xiiitvlivefs.fplive.net/xiiitvlive-live]]></link>
+<pageUrl><![CDATA[http://live.13tv.hollybyte.tv/]]></pageUrl>
+<playpath><![CDATA[stream13tv]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://4.bp.blogspot.com/-Z91wsHPPcVI/T6j3XWYCLFI/AAAAAAAAB24/qMcOBBSHIGI/s1600/Logo_13_tv_72ppp.jpg</logourl>
+<epgid>elmundo:689</epgid>
+</stream>
+<stream>
+<id>867b8c8l</id>
+<title><![CDATA[Discovery Channel]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.23.67.58/live/discoverylacajatv?id=14680]]></link>
+<pageUrl><![CDATA[http://ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://discovery.supadu.com/images/working/s_1/1628.png</logourl>
+<epgid>elmundo:146</epgid>
+</stream>
+<stream>
+<id>867b8c8l</id>
+<title><![CDATA[Discovery MAX]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmpe://50.7.28.178/app/16153]]></link>
+<pageUrl><![CDATA[http://www.shidurlive.com]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/f/f2/Discovery-max.jpg</logourl>
+<epgid>elmundo:475</epgid>
+</stream>
+<stream>
+<id>867b8c8x</id>
+<title><![CDATA[Intereconomia]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.intereconomia.com/sites/default/files/itest/fp/yomvi/flowplayer-3.2.16.swf]]></swfUrl>
+<link><![CDATA[rtmp://media.intereconomia.com/live/intereconomiatv1]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[swfVfy=1 live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Intereconom%C3%ADa.png/263px-Intereconom%C3%ADa.png</logourl>
+<epgid>elmundo:516</epgid>
+</stream>
+<stream>
+<id>867b8c8x</id>
+<title><![CDATA[Intereconomia HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.intereconomia.com/sites/default/files/itest/fp/yomvi/flowplayer-3.2.16.swf]]></swfUrl>
+<link><![CDATA[rtmp://media.intereconomia.com:1935/live/intereconomiatv2]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[swfVfy=true live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Intereconom%C3%ADa.png/263px-Intereconom%C3%ADa.png</logourl>
+<epgid>elmundo:516</epgid>
+</stream>
+<stream>
+<id>867b8c8z</id>
+<title><![CDATA[MTV]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ezcast.tv/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://212.7.206.71/live/mtvhd?id=1179]]></link>
+<pageUrl><![CDATA[http://www.ezcast.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://canaltdt.es/wp-content/uploads/2011/08/mtv.jpg</logourl>
+<epgid>elmundo:159</epgid>
+</stream>
+<stream>
+<id>867b8c83</id>
+<title><![CDATA[TNT HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://206.190.128.108/stream/tntyughjf?id=93897]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.canaltnt.es/sites/all/themes/tnt/images/logo.png</logourl>
+<epgid>elmundo:577</epgid>
+</stream>
+<stream>
+<id>867b8c84</id>
+<title><![CDATA[FDF]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.23.115.84/live/fdfhu879kl?id=167199]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/a/af/FDF_Telecinco.png</logourl>
+<epgid>elmundo:506</epgid>
+</stream>
+<stream>
+<id>867c84</id>
+<title><![CDATA[FDF op 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://5.63.151.44/stream/FdFlacaja?id=89621]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/a/af/FDF_Telecinco.png</logourl>
+<epgid>elmundo:506</epgid>
+</stream>
+<stream>
+<id>0bc0c77z</id>
+<title><![CDATA[Gran Hermano 24H]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://206.190.128.108/live/gh76hjk78?id=167197]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://i50.tinypic.com/97pve8.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bc0c77z</id>
+<title><![CDATA[Canal+1 HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.37.252.220/stream/sfdsfaadsfads?id=93507]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canal%2B.svg/1000px-Canal%2B.svg.png</logourl>
+<epgid>elmundo:250</epgid>
+</stream>
+<stream>
+<id>0bc0c77z</id>
+<title><![CDATA[Canal+2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.islbroadcast.com/player/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://isl.islbroadcast.com/live/canalplus2]]></link>
+<pageUrl><![CDATA[http://www.islbroadcast.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canal%2B.svg/1000px-Canal%2B.svg.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Accion]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.islbroadcast.com/player/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://isl.islbroadcast.com/live/accion]]></link>
+<pageUrl><![CDATA[http://www.islbroadcast.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.todotele.com/wp-content/uploads/2012/08/550px-Canal+_Acci%C3%B3n_2008.svg_.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ DCine]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.165.210.32/live/animaxdf?id=169348]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/canal+dcine2.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Comedia]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.islbroadcast.com/player/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://isl.islbroadcast.com/live/comedia]]></link>
+<pageUrl><![CDATA[http://www.islbroadcast.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Xtra]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://208.101.9.155/live/cinestenoscomemelapolla?id=169076]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Toros ONLINE]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://85.17.73.7/live/torrosts?id=169722]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.mundoplus.tv/imagenes/noticias/tv_digital/canal_plu-s_toros_pers-.gif</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Neox]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.37.252.220/stream/Neoxpon?id=93431]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.parrillatv.com/wp-content/uploads/programacion-antena-3-neox.jpg</logourl>
+<epgid>elmundo:508</epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Neox opcion 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://67.228.235.73/stream/Neoxlacaja?id=89627]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.parrillatv.com/wp-content/uploads/programacion-antena-3-neox.jpg</logourl>
+<epgid>elmundo:508</epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Nova]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.37.252.220/stream/novanova33?id=91335]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://blogs.antena3.com/clipping/2012/11/07/00360/31.jpg</logourl>
+<epgid>elmundo:509</epgid>
+</stream>
+<stream>
+<id>867b8c87</id>
+<title><![CDATA[Nitro]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.23.113.212/live/nitrolacajatv?id=126587]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://www.antena3.com/clipping/2011/07/14/00249/32.jpg</logourl>
+<epgid>elmundo:663</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Paramount Channel]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://static.castalba.tv/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://159.253.145.159/live]]></link>
+<pageUrl><![CDATA[http://castalba.tv/embed.php?cid=9947&wh=680&ht=400&r=lacajatv.es]]></pageUrl>
+<playpath><![CDATA[179582]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://gentedetele.com/wp-content/uploads/2012/03/paramount-channel-nuevo-canal-TDT.jpg</logourl>
+<epgid>elmundo:716</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Paramount Comedy]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://198.105.209.124/stream/ParamountComedy?id=89419]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://1.bp.blogspot.com/-GApjm00Rd6M/TwR0Dae4YSI/AAAAAAAAA14/UZK5-nqhhtY/s1600/paramount.jpg</logourl>
+<epgid>elmundo:493</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Calle 13]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.castto.me/_.swf]]></swfUrl>
+<link><![CDATA[rtmp://198.144.158.136:80/pub/_definst_/9G1hWULuNSLDDGIeLpSM]]></link>
+<pageUrl><![CDATA[http://static.castto.me]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[swfVfy=true token=#ed%h0#w@1]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/calle13.png</logourl>
+<epgid>elmundo:64</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Calle 13 opcion 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://files.mica.st/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://redbull.micast.tv/liveedge/calle13L7R]]></link>
+<pageUrl><![CDATA[http://micast.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/calle13.png</logourl>
+<epgid>elmundo:64</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Canal Hollywood]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.castto.me/_.swf]]></swfUrl>
+<link><![CDATA[rtmp://198.144.158.137:80/pub/_definst_/R2YlDQExKXNsBwal9FNh]]></link>
+<pageUrl><![CDATA[http://static.castto.me]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[swfVfy=true token=#ed%h0#w@1]]></advanced>
+<logourl>http://www.tvonline2013.mex.tl/imagesnew2/0/0/0/2/0/9/1/7/1/3/Canal_Hollywood_svg.png</logourl>
+<epgid>elmundo:61</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Canal Hollywood OP 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://files.mica.st/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://fanta.micast.tv/liveedge/HOLLYWOODnL5]]></link>
+<pageUrl><![CDATA[http://micast.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.tvonline2013.mex.tl/imagesnew2/0/0/0/2/0/9/1/7/1/3/Canal_Hollywood_svg.png</logourl>
+<epgid>elmundo:61</epgid>
+</stream>
+<stream>
+<id>867b8c88</id>
+<title><![CDATA[Buzz]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.ezcast.tv/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://212.7.206.71/live/buzz564hg67?id=1522]]></link>
+<pageUrl><![CDATA[http://www.ezcast.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://www.tvonline2013.mex.tl/imagesnew2/0/0/0/2/0/9/1/7/1/3/Canal_Hollywood_svg.png</logourl>
+<epgid>elmundo:688</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[AXN]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://208.43.81.145/stream/AXN122?id=93424]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/axn.png</logourl>
+<epgid>elmundo:63</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[AXN WHITE]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://static.tutele.me/player/tutele-2006-28102011-alpha.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.19.141.162:80/tutele/live_1311_5e17f557663c]]></link>
+<pageUrl><![CDATA[http://tutele.me/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://msabanda.eresmas.com/imagenes/AXN-Black.png</logourl>
+<epgid>elmundo:512</epgid>
+</stream>
+<stream>
+<id>3</id>
+<title><![CDATA[Actualizado: 31/05/2013]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://nicholaskreidberg.com/wp-content/uploads/2012/01/update_apple.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Cartoon Network]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.23.65.36/live/cartoon1968?id=169607]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://www.cartoonnetwork.es/sites/www.cartoonnetwork.es/files/cn_rebranding_10_logo.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Clan]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://109.123.116.26/live/7377772?id=32552]]></link>
+<pageUrl><![CDATA[http://ucaster.eu]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://ciudadarcoiris.es/wp-content/uploads/2011/09/Logo_Clan_TVE-150x150.jpg</logourl>
+<epgid>elmundo:505</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Disney Channel España]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://ucaster.eu:1935/live/_definst_/clan999]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://img.vayatele.com/2009/11/disney_channel.png</logourl>
+<epgid>elmundo:175</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Disney Cinemagic España]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://ucaster.eu:1935/live/_definst_/EspSiete]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://tecnoocienciadotcom.files.wordpress.com/2011/06/disney_cinemagic.png</logourl>
+<epgid>elmundo:599</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Disney XD España]]></title>
+ swfUrl= live=1 pageUrl=embedplayer/xd1968/1/600/400
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://174.36.169.182/live/xd1968?id=169608]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://a.dolimg.com/en-US/disneyxd/289/images/logo.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Disney Cinemagic Latino]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmp://173.193.197.46:1935/app]]></link>
+<pageUrl><![CDATA[http://sawlive.tv/]]></pageUrl>
+<playpath><![CDATA[12803]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/8/82/Logo_Disney_XD.svg</logourl>
+<epgid>elmundo:174</epgid>
+</stream>
+<stream>
+<id>867b8c89</id>
+<title><![CDATA[Nickelodeon]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://mips.tv/content/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.23.239.11/live/nick1968?id=169597]]></link>
+<pageUrl><![CDATA[http://mips.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Dibujos]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl></logourl>
+<epgid>elmundo:200</epgid>
+</stream>
+<stream>
+<id>867b8c90</id>
+<title><![CDATA[National Geografic]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmpe://50.7.28.210/app/16152]]></link>
+<pageUrl><![CDATA[http://ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.nationalgeographic.es/images/xNGC_logo.png.pagespeed.ic.W5pBBhZzSf.png</logourl>
+<epgid>elmundo:151</epgid>
+</stream>
+<stream>
+<id>867b8c90</id>
+<title><![CDATA[National Geografic WILD HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[http://fw01.livem3u8.me.totiptv.com/live/607fa33938bc4a3ea6c43ce47ddb8ed8.m3u8]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://www.nationalgeographic.es/images/xNGC_logo.png.pagespeed.ic.W5pBBhZzSf.png</logourl>
+<epgid>elmundo:151</epgid>
+</stream>
+<stream>
+<id>867b8c91</id>
+<title><![CDATA[Animal Planet Latino]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://cdn.static.ilive.to/jwplayer/player_embed.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.105.114.120/edge]]></link>
+<pageUrl><![CDATA[http://www.ilive.to/]]></pageUrl>
+<playpath><![CDATA[41i3ymbmum28xfk]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.norkumbia.mex.tl/imagesnew2/0/0/0/1/0/7/0/3/5/3/animal_planet.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[Canal Historia]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://player.ilive.to/player_ilive_embed.swf]]></swfUrl>
+<link>rtmp://edge.isearch.to/edge/2oe52g4dzkf7h09</link>
+<pageUrl><![CDATA[http://www.ilive.to/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.canaldehistoria.es/img/logo_canal_historia.gif</logourl>
+<epgid>elmundo:148</epgid>
+</stream>
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[Canal Historia Latino]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://player.ilive.to/player_ilive_embed.swf]]></swfUrl>
+<link><![CDATA[rtmp://142.4.216.176/edge/2oe52g4dzkf7h09]]></link>
+<pageUrl><![CDATA[http://www.ilive.to/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.canaldehistoria.es/img/logo_canal_historia.gif</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[Canal Historia jtv.archives requerido]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www-cdn.jtvnw.net/widgets/live_embed_player.r2d05e5.eedb8e154b9535e4d225aba6bee950f8d8.swf]]></swfUrl>
+<link>plugin://plugin.video.jtv.archives/?mode=2&amp;name=canal_ciencias</link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://www.canaldehistoria.es/img/logo_canal_historia.gif</logourl>
+<epgid>elmundo:148</epgid>
+</stream>
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[Canal Historia 2 jtv.archives requerido]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www-cdn.jtvnw.net/widgets/live_embed_player.r2d05e5.eedb8e154b9535e4d225aba6bee950f8d8.swf]]></swfUrl>
+<link>plugin://plugin.video.jtv.archives/?mode=2&amp;name=kcandsun1</link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://www.canaldehistoria.es/img/logo_canal_historia.gif</logourl>
+<epgid>elmundo:148</epgid>
+</stream>
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[Odisea]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link>rtmp://62.212.72.193/stream/odiseyy?id=93147</link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Documentales]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl></logourl>
+<epgid></epgid>
+</stream>
+ swfUrl= pageUrl=http://www.liveflash.tv/
+<stream>
+<id>867b8c93</id>
+<title><![CDATA[XTRM]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://yukons.net/ykplay.swf]]></swfUrl>
+<link><![CDATA[rtmp://173.192.200.81:443/kuyo/xtrmtelevisionsonk?id=39352e31382e3137302e3635]]></link>
+<pageUrl><![CDATA[http://yukons.net/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.extremeteuve.com/img/lgxtrmp1.gif</logourl>
+<epgid>elmundo:68</epgid>
+</stream>
+<stream>
+<id>127b8c93</id>
+<title><![CDATA[Cosmo HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://yukons.net/ykplay.swf]]></swfUrl>
+<link><![CDATA[rtmp://199.19.95.85:443/kuyo/cosmopolitansonk?id=39352e31382e3137302e3635]]></link>
+<pageUrl><![CDATA[http://yukons.net/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://cosmopolitantv.cosmohispano.com/img/cosmopolitan.gif</logourl>
+<epgid>elmundo:186</epgid>
+</stream>
+<stream>
+<id>3</id>
+<title><![CDATA[Fox Crime]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://149.255.37.163/stream/foxcrime567hjk76?id=93405]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.foxcrime.es/bundles/aciliacarassius/themes/foxcrime/images/logos/foxcrime.png</logourl>
+<epgid>elmundo:660</epgid>
+</stream>
+<stream>
+<id>867b8c95</id>
+<title><![CDATA[Xplora]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://player.longtailvideo.com/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://antena3fms35geobloqueolivefs.fplive.net/antena3fms35geobloqueolive-live/]]></link>
+<pageUrl><![CDATA[http://www.lasexta.com/xplora/directo]]></pageUrl>
+<playpath><![CDATA[stream-xplora]]></playpath>
+<language><![CDATA[Nacionales]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/0/09/Logo_Xplora_2012.png</logourl>
+<epgid>elmundo:511</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Actualizado: 31/05/2013]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://nicholaskreidberg.com/wp-content/uploads/2012/01/update_apple.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c95</id>
+<title><![CDATA[Canal Sur]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[http://195.10.10.226/rtva/champions.flv]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/0/09/Logo_Xplora_2012.png</logourl>
+<epgid>elmundo:511</epgid>
+</stream>
+<stream>
+<title>Canal Vasco</title>
+<info resolution="768x420" bitrate="1000kbps"/>
+<swfUrl>http://www.eitb.com/resources/flash/video_player.swf</swfUrl>
+<link>rtmp://cp70268.live.edgefcs.net/live/eitb-ETBSat@5219</link>
+<pageUrl><![CDATA[http://www.eitb.com/]]></pageUrl>
+<playpath></playpath>
+<language>Autonomicas</language>
+<advanced></advanced>
+<logourl>http://images1.wikia.nocookie.net/__cb20110830190554/logopedia/images/archive/c/ca/20110830192256!Canal_Vasco_logo_2009.png</logourl>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Extremadura TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.canalextremadura.es/sites/all/modules/custom/slx_reproductor/js/mediaplayer-5.7/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://canalextremaduralive.cdn.canalextremadura.es/canalextremaduralive-live]]></link>
+<pageUrl><![CDATA[http://www.canalextremadura.es/alacarta]]></pageUrl>
+<playpath><![CDATA[stream001]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.parrillatv.com/wp-content/uploads/extremadura.jpg</logourl>
+<epgid>elmundo:582</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Galicia TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.crtvg.es/flowplayer3/flowplayer.commercial-3.2.7.swf]]></swfUrl>
+<link><![CDATA[rtmp://media3.crtvg.es:80/live]]></link>
+<pageUrl><![CDATA[http://www.crtvg.es/tvg/tvg-en-directo]]></pageUrl>
+<playpath><![CDATA[tvge_2]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.movistar.es/rpmm/estaticos/imagenes/ocio-tv/logos-tv/160x130/tv_galicia_europa.jpg</logourl>
+<epgid>elmundo:37</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[K30 TV Extremadura]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.todostreaming.es/player_new.swf]]></swfUrl>
+<link><![CDATA[rtmp://flash3.todostreaming.es/canal30/livestream]]></link>
+<pageUrl><![CDATA[http://www.k30digital.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://zonatv.net/tv-online/files/2012/07/k-30-tv.png</logourl>
+<epgid>elmundo:37</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[TV3 24 hores]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.tv3.cat/ria/players/3ac/i360/Main.swf]]></swfUrl>
+<link><![CDATA[rtmp://tv-nogeo-flashlivefs.fplive.net:1935/tv-nogeo-flashlive-live?ovpfv=1.1/537.4]]></link>
+<pageUrl><![CDATA[http://www.tv3.cat/3alacarta/#/directes/TV3]]></pageUrl>
+<playpath><![CDATA[stream_324_FLV]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Canal_3-24_de_TVC.jpg/150px-Canal_3-24_de_TVC.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[TV3 Infantil]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.tv3.cat/ria/players/3ac/i360/Main.swf]]></swfUrl>
+<link><![CDATA[rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/537.4]]></link>
+<pageUrl><![CDATA[http://www.tv3.cat/3alacarta/#/directes/TV3]]></pageUrl>
+<playpath><![CDATA[stream_ES_33D_FLV]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.sporatendencias.es/fuentes/canal-tv3-infantil/leadImage_large</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[TV3 CAT]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.tv3.cat/ria/players/3ac/i360/Main.swf]]></swfUrl>
+<link><![CDATA[rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/537.4]]></link>
+<pageUrl><![CDATA[http://www.tv3.cat/3alacarta/#/directes/TV3]]></pageUrl>
+<playpath><![CDATA[stream_TV3CAT_FLV]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://3.bp.blogspot.com/-l0CmnMpFgKY/T4m1imVR8iI/AAAAAAAAAEo/2HSmQ5xoqeo/s320/1283424208592.jpg</logourl>
+<epgid>elmundo:47</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[RTV Ceuta]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://flash3.todostreaming.es/rtvceuta]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[livestream]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/c/ca/RtvCeuta.svg</logourl>
+<epgid>elmundo:47</epgid>
+</stream>
+<stream>
+<id>867b8c8x</id>
+<title><![CDATA[Telemadrid SAT]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://latvonline.es/player/jwplayer/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://149.11.34.6/live]]></link>
+<pageUrl><![CDATA[http://latvonline.es/]]></pageUrl>
+<playpath><![CDATA[telemadridsat.stream]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[swfVfy=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/de/thumb/2/2b/Telemadrid-Sat-Logo.svg/601px-Telemadrid-Sat-Logo.svg.png</logourl>
+<epgid>elmundo:40</epgid>
+</stream>
+<stream>
+<id>867b8c8x</id>
+<title><![CDATA[TV Canaria]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.rtvc.es/revista/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://streamrtvc.mad.idec.net/rtvc1/]]></link>
+<pageUrl><![CDATA[http://www.rtvc.es/]]></pageUrl>
+<playpath><![CDATA[rtvc_1.sdp]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[swfVfy=true live=true]]></advanced>
+<logourl>http://1.bp.blogspot.com/_VvLoQXtu9Mg/SM66SU6zpRI/AAAAAAAAA5U/iXuw3YFQ6Q8/s400/tv_canaria.jpg</logourl>
+<epgid>elmundo:41</epgid>
+</stream>
+<stream>
+<id>867b8c8x</id>
+<title><![CDATA[La Otra]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://cdn1.eyewonder..com/200125/779915/1779559/640x360_Linear_AS3.swf?cp=http://cdn1.eyewonder.com/200125/779915/1779559/&ewbase=http://cdn1.eyewonde.r.com/200125/779915/1779559/&adLoaderWidth=640&adLoaderHeight=360&hAlign=center&vAlign=middle&keywordNames=&keywordIDs=&realAdId.=304057&ewbust=2094164062]]></swfUrl>
+<link><![CDATA[rtmp://eyewond.fcod.llnwd.net/a119/o1?_fcs_vhost=eyewond.fcod.llnwd.net]]></link>
+<pageUrl><![CDATA[http://www.xbmcspain.com/]]></pageUrl>
+<playpath><![CDATA[Afms2.eyewonder/video/90594/fl8_Banco_Popular_Instream_640x360-600]]></playpath>
+<language><![CDATA[Autonomicas]]></language>
+<advanced><![CDATA[swfVfy=true]]></advanced>
+<logourl>http://commons.wikimedia.org/wiki/File:Telemadrid.gif</logourl>
+<epgid>elmundo:40</epgid>
+</stream>
+<stream>
+<title>Sevilla FC TV</title>
+<info resolution="768x420" bitrate="1000kbps"/>
+<swfUrl>http://cdn.freedocast.com/hdflvplayer/hdplayer.swf</swfUrl>
+<link>rtmp://fl0.c80137.cdn.qbrick.com/80137</link>
+<pageUrl><![CDATA[http://www.sevillafc.es/nuevaweb/medios/tvdirecto]]></pageUrl>
+<playpath>Sevilla</playpath>
+<language>Autonomicas</language>
+<advanced></advanced>
+<logourl>http://www.sevillafc.es/archivos/mosca_tv_copia_1.jpg</logourl>
+</stream>
+<stream>
+<title>EuroNews</title>
+<info resolution="768x420" bitrate="1000kbps"/>
+<swfUrl>http://es.euronews.net/media/player_live_1_12.swf</swfUrl>
+<link>rtmp://fr-par-1.stream-relay.hexaglobe.net:1935/rtpeuronewslive</link>
+<pageUrl><![CDATA[http://es.euronews.net/noticias/en-directo/]]></pageUrl>
+<playpath>es_video750_flash_all.sdp</playpath>
+<language>Nacionales</language>
+<advanced></advanced>
+<logourl>http://es.euronews.com/media/logo_222.gif</logourl>
+<epgid>elmundo:139</epgid>
+</stream>
+<stream>
+<id>867b8c8t</id>
+<title><![CDATA[Actualizado: 31/05/2013]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://nicholaskreidberg.com/wp-content/uploads/2012/01/update_apple.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c85</id>
+<title><![CDATA[BEIN HD OnLINE]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://ucaster.eu:1935/live/_definst_/vipracing2a]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://www.tropigol.com/wp-content/uploads/2012/08/bein_SPORT_logoTP.jpg</logourl>
+</stream>
+<stream>
+<id>867b8c85</id>
+<title><![CDATA[Canal+ Liga de Campeones Online 31/05/13]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.165.251.74/stream/alababat1?id=93626]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://www.vivafutbol.es/images/stories/Fotos_Noticias/00_99/canal_plus_liga_campeones.jpg</logourl>
+</stream>
+<stream>
+<id>867b8c85</id>
+<title><![CDATA[GolTV ON BUENA CALIDAD]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.udemy.com/static/flash/player5.9.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.7.28.178/live/aladinog]]></link>
+<pageUrl><![CDATA[http://www.castamp.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<logourl>http://www.vivafutbol.es/images/stories/Fotos_Noticias/00_99/canal_plus_liga_campeones.jpg</logourl>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Deportes HD ONLINE]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.liveflash.tv/resources/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://67.228.235.73/stream/deporteplus?id=94058]]></link>
+<pageUrl><![CDATA[http://www.liveflash.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Deportes 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://146.185.30.244/live/23e2ewdewddfdff?id=39010]]></link>
+<pageUrl><![CDATA[http://ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[conn=S:OK live=1]]></advanced>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Futbol]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.icasthd.tv/player/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://edge.icasthd.tv:1935/live?f=CFutbol&t=1370023875&s=825c0f242e906f3740.0eb270ea5b81bb/CFutbol]]></link>
+<pageUrl><![CDATA[http://www.icasthd.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Canal%2B.svg/1000px-Canal%2B.svg.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Canal+ Golf ONLINE]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.icasthd.tv/player/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://edge.icasthd.tv:1935/live?f=CGolf&t=1370024126&s=6a8ca4ce08ef8a02b8ac50.8f02f8c314/CGolf]]></link>
+<pageUrl><![CDATA[http://www.icasthd.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.todotele.com/wp-content/uploads/2011/02/canal-+-golf.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Dolce Sport 1]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://static.mediadirect.ro/player-preload/swf/preloader/preloader.swf]]></swfUrl>
+<link><![CDATA[rtmp://fms30.mediadirect.ro:1935/live3/dolcesport_low]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.paginademedia.ro/wp-content/uploads/2012/05/Dolce-Sport-vechi.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Dolce Sport 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://static.mediadirect.ro/player-preload/swf/preloader/preloader.swf]]></swfUrl>
+<link><![CDATA[rtmp://fms30.mediadirect.ro:1935/live3/dolcesport2]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://www.paginademedia.ro/wp-content/uploads/2012/05/Dolce-Sport-vechi.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[Dolce Sport HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://static.mediadirect.ro/player-preload/swf/preloader/preloader.swf]]></swfUrl>
+<link><![CDATA[rtmp://fms30.mediadirect.ro:1935/live3/dolcesporthd_low]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=true]]></advanced>
+<logourl>http://2.bp.blogspot.com/-8JB9ZvMwIJw/Td-6F0mVb3I/AAAAAAAADWk/aumT_tNrY6k/s1600/Dolce%2BHD%2BSport.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bc0c77z</id>
+<title><![CDATA[Eurosport España]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[http://esioslive-i.akamaihd.net/hls/live/201630/AL_ESP1_SP_SPA/playlist_1800.m3u8]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Eurosport_2_Logo.svg/500px-Eurosport_2_Logo.svg.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>867b8c8s</id>
+<title><![CDATA[GolTV HD]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://freelivestream.tv/swfs/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://93.114.44.171/freelivestreamHD]]></link>
+<pageUrl><![CDATA[http://freelivestream.tv/]]></pageUrl>
+<playpath><![CDATA[vipracinghq]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[Marca TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://ucaster.eu:1935/live/_definst_/mar6845]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Marca_TV.svg/250px-Marca_TV.svg.png</logourl>
+<epgid>elmundo:664</epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[Marca TV opcion 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[]]></swfUrl>
+<link><![CDATA[rtmp://mips.tv:1935/live/_definst_]]></link>
+<pageUrl><![CDATA[]]></pageUrl>
+<playpath><![CDATA[marca47]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Marca_TV.svg/250px-Marca_TV.svg.png</logourl>
+<epgid>elmundo:664</epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[NBA TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://thecdn.04stream.com/p/boopo.swf]]></swfUrl>
+<link><![CDATA[rtmp://46.246.29.141:1935/stream]]></link>
+<pageUrl><![CDATA[http://04stream.com/]]></pageUrl>
+<playpath><![CDATA[K8l9h6j8.stream]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/240px-NBA_TV.svg.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[NBA TV OP 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://cdn.stream4.tv/player2.swf]]></swfUrl>
+<link><![CDATA[rtmp://rtmp2.stream4.tv:1935/redirect/11943]]></link>
+<pageUrl><![CDATA[http://stream4.tv/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/240px-NBA_TV.svg.png</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[Redbull TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://lasteles.com/js/mediaplayer-5.10/player.swf]]></swfUrl>
+<link><![CDATA[rtmp://149.11.34.6/live/redbulltv.stream]]></link>
+<pageUrl><![CDATA[http://lasteles.com/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://104cubes.com/wp-content/uploads/2012/09/Red-bull-tv.jpeg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[RealMadrid TV]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.realmadrid.com/StaticFiles/RealMadrid/streaming/swf/flowplayer.commercial-3.2.7.swf]]></swfUrl>
+<link><![CDATA[rtmp://realmadridlivefs.fplive.net/realmadridlive-live/]]></link>
+<pageUrl><![CDATA[http://www.realmadrid.com/]]></pageUrl>
+<playpath><![CDATA[stream001]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[live=1]]></advanced>
+<logourl>http://1.bp.blogspot.com/-K7SYc-BiJ1I/TbW-A7YK2WI/AAAAAAAAAT4/qhTW9LAcbIQ/s320/realmadrid-TV.jpg</logourl>
+<epgid></epgid>
+</stream>
+<stream>
+<id>0bb1c77z</id>
+<title><![CDATA[Teledeportes]]></title>
+<info resolution="" bitrate="" lastUpdated="1335738992"/>
+<swfUrl><![CDATA[http://www.rtve.es/swf/4.1.18/RTVEPlayerVideo.swf]]></swfUrl>
+<link><![CDATA[rtmp://rtvegeofs.fplive.net:1935/rtvegeo-live-live/RTVE_TDP_LV3_WEB_GEO]]></link>
+<pageUrl><![CDATA[http://www.rtve.es/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[Deportes]]></language>
+<advanced><![CDATA[swfVfy=true live=true]]></advanced>
+<logourl>http://commons.wikimedia.org/wiki/File:SPORTMANIA.JPG</logourl>
+<epgid>elmundo:153</epgid>
+</stream>
+</streams>
