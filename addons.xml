@@ -41,6 +41,40 @@
   </extension>
 </addon>
 
+<addon id="metadata.filmaffinity.com"
+       name="FilmAffinity"
+       version="1.4.1"
+       provider-name="hectorZiN + MaDDoGo + agjacome">
+<requires>
+    <import addon="xbmc.metadata" version="1.0"/>
+    <import addon="metadata.common.themoviedb.org" version="1.0"/>
+    <import addon="metadata.common.movieposterdb.com" version="1.0"/>
+    <import addon="metadata.common.impa.com" version="1.0"/>
+    <import addon="metadata.common.imdb.com" version="1.0"/>
+    <import addon="metadata.common.hdtrailers.net" version="1.0"/>
+    <import addon="plugin.video.youtube" version="1.0"/>
+</requires>
+<extension point="xbmc.metadata.scraper.movies"
+             language="es"
+             library="filmaffinity.xml"/>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">FilmAffinity Movie Scraper</summary>
+    <summary lang="hu">FilmAffinity filmadat leolvasó</summary>
+    <summary lang="kr">FilmAffinity 영화 스크래퍼</summary>
+    <summary lang="pl">Scraper filmów FilmAffinity</summary>
+    <summary lang="pt">Scraper de filmes FilmAffinity</summary>
+    <summary lang="es">Scraper de Películas de Filmaffinity</summary>
+    <description lang="en">Download Movie information from www.filmaffinity.com</description>
+    <description lang="hu">Film információk letöltése a www.filmaffinity.com-ról</description>
+    <description lang="kr">www.filmaffinity.com 에서 영화 정보 다운로드</description>
+    <description lang="pl">Pobieraj informacje o filmach z www.filmaffinity.com</description>
+    <description lang="pt">Descarregar informação de filmes de www.filmaffinity.com</description>
+    <description lang="es">Scraper que usa la versión española de Filmaffinity para descargar información de películas en español, ayudándose de varias páginas para ampliar la información.</description>
+	<disclaimer lang="es">Se recomienda configurar antes de usar.</disclaimer>
+    <platform>all</platform>
+</extension>
+</addon>
+
 <addon id="plugin.video.karaokeplay"
        name="KaraokePlay"
        version="1.0"
@@ -59,6 +93,26 @@
     <description lang="en">KaraokePlay has thousands of karaoke videos from youtube indexed. This allows you to browse and play them from xbmc.</description>
     <summary lang="es">Vídeos de karaoke desde KaraokePlay.com</summary>
     <description lang="es">KaraokePlay tiene miles de vídeos de karaoke indexados en Youtube. Esto te permite navegar y jugar desde XBMC.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.rtmpGUIplus"
+       name="rtmpGUI+"
+       version="1.1.0"
+       provider-name="BlueCop, HansMayer">
+  <requires>
+  <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+  <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>rtmpGUI+</summary>
+    <description>Television en Directo, este plugin ha sido modificado por dj_d2, ya que la anterior no funcionaba bien!</description>
     <platform>all</platform>
   </extension>
 </addon>
