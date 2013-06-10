@@ -1,0 +1,18 @@
+2011/02/04
+Add: Includes work done by xbmcero to get the script working with Dharma.
+Edit: New videoclip by CyberXaz.
+Add: Cosmetics.
+
+2009/06/19
+Add: Implemented a slick, lightweight GUI
+Add: Support for adding as single file
+Add: Added full i18n support
+Add: Added detailed logging
+Edit: Cleaned up the program's guts so it's both a bit prettier and more efficient
+
+2009/06/17
+Add: Created the default video clip to be displayed when attempting to view an offline DVD
+Add: Script can now process a batch file of video titles
+
+2009/06/17
+Add: Added the base directory and supporting documents

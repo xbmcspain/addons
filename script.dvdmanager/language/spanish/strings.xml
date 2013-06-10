@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Translator: xbmcero-->
+<!--Date of translation: 02/04/2011-->
+<strings>
+	<string key="ApplicationName">XBMC DVD Manager</string>
+	<string key="Add_Batch_Results_Header">Resultados: Proceso por lotes</string>
+	<string key="Add_Batch_Results_Copied">{0} copiados</string>
+	<string key="Add_Batch_Results_Skipped">{0} ignorados</string>
+	<string key="Add_Batch_Results_Failed">{0} fallidos</string>
+	<string key="Add_Batch_Browse_File_Header">Por favor elija la lista de DVDs:</string>
+	<string key="Add_Batch_Browse_Location_Header">Por favor elija la ruta de su colección de DVDs:</string>
+	<string key="Add_Batch_Progress_Header">Añadiendo los DVDs...</string>
+	<string key="Add_Batch_Progress_Status">Guardados {0} de {1}...</string>
+	<string key="Add_Single_Input_File_Header">¿Cuál es el nombre del DVD?</string>
+	<string key="Add_Single_Browse_Location_Header">¿Dónde te gustaría guardarlo?</string>
+	<string key="Add_Single_Results_Header">Finalizado</string>
+	<string key="Add_Single_Results_Success_Info">Este DVD se ha añadido con éxito:</string>
+	<string key="Add_Single_Results_Skipped_Info">Este DVD se ha ignorado:</string>
+	<string key="Add_Single_Results_Skipped_Footer">El DVD ya existe.</string>
+	<string key="Add_Single_Results_Failure_Info">Este DVD no puede añadirse:</string>
+	<string key="Add_Single_Results_Failure_Footer">Por favor inténtelo de nuevo.</string>
+	<string key="MainMenu_Add_Batch">Añadir varios DVDs a la vez</string>
+	<string key="MainMenu_Add_Single">Añadir un nuevo DVD a la biblioteca</string>
+	<string key="MainMenu_Option_About">Acerca de...</string>
+	<string key="MainMenu_Option_Exit">Salir</string>
+</strings>

@@ -1,0 +1,34 @@
+<changelog project="XBMC DVD Manager">
+	<release date="2009/06/19">
+		<version>
+			<major>1</major>
+			<minor>0</minor>
+		</version>
+		<changes>
+			<change type="add">Implemented a slick, lightweight GUI</change>
+			<change type="add">Support for adding as single file</change>
+			<change type="add">Added full i18n support</change>
+			<change type="add">Added detailed logging</change>
+			<change type="edit">Cleaned up the program's guts so it's both a bit prettier and more efficient</change>
+		</changes>
+	</release>
+	<release date="2009/06/17">
+		<version>
+			<major>0</major>
+			<minor>1</minor>
+		</version>
+		<changes>
+			<change type="add">Created the default video clip to be displayed when attempting to view an offline DVD</change>
+			<change type="add">Script can now process a batch file of video titles</change>
+		</changes>
+	</release>
+	<release date="2009/06/17">
+		<version>
+			<major>0</major>
+			<minor>0</minor>
+		</version>
+		<changes>
+			<change type="add">Added the base directory and supporting documents</change>
+		</changes>
+	</release>
+</changelog>

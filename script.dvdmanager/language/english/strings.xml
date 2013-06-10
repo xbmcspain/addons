@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string key="ApplicationName">XBMC DVD Manager</string>
+	<string key="Add_Batch_Results_Header">Results: Batch process</string>
+	<string key="Add_Batch_Results_Copied">{0} copied</string>
+	<string key="Add_Batch_Results_Skipped">{0} skipped</string>
+	<string key="Add_Batch_Results_Failed">{0} failed</string>
+	<string key="Add_Batch_Browse_File_Header">Please select the list of DVDs:</string>
+	<string key="Add_Batch_Browse_Location_Header">Please select the location of your DVD library:</string>
+	<string key="Add_Batch_Progress_Header">Adding the DVDs...</string>
+	<string key="Add_Batch_Progress_Status">Saving {0} of {1}...</string>
+	<string key="Add_Single_Input_File_Header">What is the name of the DVD?</string>
+	<string key="Add_Single_Browse_Location_Header">Where would you like to save it?</string>
+	<string key="Add_Single_Results_Header">Finished</string>
+	<string key="Add_Single_Results_Success_Info">This DVD has been successfully added:</string>
+	<string key="Add_Single_Results_Skipped_Info">This DVD was skipped:</string>
+	<string key="Add_Single_Results_Skipped_Footer">The DVD already exists.</string>
+	<string key="Add_Single_Results_Failure_Info">This DVD could not be added:</string>
+	<string key="Add_Single_Results_Failure_Footer">Please try again.</string>
+	<string key="MainMenu_Add_Batch">Add multiple DVDs at once</string>
+	<string key="MainMenu_Add_Single">Add a new DVD to your library</string>
+	<string key="MainMenu_Option_About">About</string>
+	<string key="MainMenu_Option_Exit">Exit</string>
+</strings>
