@@ -16,13 +16,28 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import urllib, urllib2, cookielib
-import string, os, re, time, sys
-
+import string, os, re, time, sys, weblogin, gethtml
 import xbmc, xbmcgui, xbmcplugin, xbmcaddon
 __settings__   = xbmcaddon.Addon()
 
 from aes import AESCtr
 from epg import *
+
+#Carpeta de las imagenes
+carpetaimagenes = os.path.join(xbmcaddon.Addon().getAddonInfo('path'),'resources/imagenes/')
+
+#Iconos de las notificaciones
+notierror = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/noti_error.png')
+notiinf = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/noti_informa.png')
+notimail = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/noti_mail.png')
+
+dialogo = xbmcgui.Dialog()
+cookiepath = __settings__.getAddonInfo('Path')
+use_account = __settings__.getSetting('use-account')
+username = __settings__.getSetting('username')
+password = __settings__.getSetting('password')
+url = "http://xbmcspain.com/foro/ucp.php?mode=login&redirect=.%2Findex.php"
+source = gethtml.get(url)
 
 try:
     try:
@@ -38,6 +53,52 @@ except:
         dlg.ok('ElementTree missing', 'Please install the elementree addon.',
                 'http://tinyurl.com/xmbc-elementtree')
         sys.exit(0)
+        
+def MensajeBienvenida():
+	msgBienve = __settings__.getSetting('msgBienvenida')
+	
+	if msgBienve is not True:
+		Bienve = dialogo.ok('Bienvenido/a', 'Esta es la primera gran actualizacion que le hago al plugin')
+		msgBienve = __settings__.setSetting('msgBienve','true')
+
+def Notificaciones(title,message,times,icon):
+        xbmc.executebuiltin("XBMC.Notification("+title+","+message+","+times+","+icon+")")
+
+def LOGIN(username,password,hidesuccess):
+	uc = username[0].upper() + username[1:]
+	lc = username.lower()
+	hidesuccess = __settings__.getSetting('hide-successful-login-messages')
+	logged_in = weblogin.doLogin(cookiepath,username,password)
+	
+	# Comprueba si esta logeado, y si lo esta, ejecuta las acciones
+	if logged_in == True:
+		# Debajo de esta linea iran las opciones especiales de los que esten logeados
+		#############################################################################
+		#############################################################################
+		
+		#si Desactivar Notificaciones esta Desactivado, envia todas las notificaciones que haya, tanto avisos, errores etc
+		if hidesuccess == 'false':
+			pass
+
+	# Si no esta logeado te manda el error de login, y las funciones que se añadan para los desconectados.
+	if logged_in == False:
+		Notificaciones('Error de Login',username+' Comprueba tus datos.','4000',notierror)
+
+def STARTUP_ROUTINES():
+        #deal with bug that happens if the datapath doesn't exist
+        if not os.path.exists(cookiepath):
+          os.makedirs(cookiepath)
+
+        use_account = __settings__.getSetting('use-account')
+
+        if use_account == 'true':
+             #get username and password and do login with them
+             #also get whether to hid successful login notification
+             username = __settings__.getSetting('username')
+             password = __settings__.getSetting('password')
+             hidesuccess = __settings__.getSetting('hide-successful-login-messages')
+
+             LOGIN(username,password,hidesuccess)
 
 def addFolder(BASE, source=None, lang='', totalItems=0):
     if not lang:
@@ -117,7 +178,7 @@ def listSources(BASE):
 
     for source in BASE:
         addFolder(BASE,BASE.index(source),totalItems=len(BASE))
-    xbmc.executebuiltin("Container.SetViewMode(502)")
+    #xbmc.executebuiltin("Container.SetViewMode(502)")
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
 
     
@@ -134,7 +195,7 @@ def listChannels(BASE,src=0):
     for lang in languages:
         addFolderC(BASE,src, lang.findtext('name'), i, totalItems=len(languages), thumb=lang.findtext('thumbnail', "DefaultTVShows.png"))
         i += 1
-    xbmc.executebuiltin("Container.SetViewMode(502)")
+    xbmc.executebuiltin("Container.SetViewMode(500)")
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
     
     
@@ -162,7 +223,7 @@ def listLanguages(BASE,src=0):
 
     for lang in languages:
         addFolder(BASE,src, lang, totalItems=len(languages))
-    xbmc.executebuiltin("Container.SetViewMode(502)")
+    xbmc.executebuiltin("Container.SetViewMode(500)")
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
 
 
@@ -257,3 +318,11 @@ def main(BASE):
     else:
         checkAutoupdateEPG()
         listSources(BASE)
+        
+	msgBienve1 = __settings__.getSetting('msgBienvenida')
+	
+	if msgBienve1 == 'false':
+		msgBienve1 = __settings__.setSetting('msgBienvenida','true')
+		Bienve = dialogo.ok('Bienvenido/a', 'Esta es la primera actualizacion que le hago','al plugin asi que espero que os guste')
+		
+	STARTUP_ROUTINES()
