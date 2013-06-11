@@ -4,4 +4,16 @@
     <setting id="show24h" type="bool" label="Ver horas en formato 24h" default="false" />
     <setting id="habilitarmodoadultos" type="bool" label="Habilitar canales para adultos" default="false" />
   </category>
+  <category label="Login XBMCSPAIN">
+    <setting id="use-account" type="bool" label="Usar Cuenta de XBMCSPAIN?" default="false"/>
+    <setting id="username" type="text" label="Usuario:" default="" enable="true"/>
+    <setting id="password" type="text" label="Contraseña:" default="" option="hidden" enable="true"/>
+    <setting id="hide-successful-login-messages" type="bool" label="Desactivar Notificaciones?" default="false" enable="true"/>
+  </category>
+  <category label="Configuraciones">
+    <setting id="msgBienvenida" type="bool" label="Mensaje Bienvenida Leido?" default="false" enable="true"/>
+  </category>
+  <category label="Paises">
+    <setting id="canalesrumanos" type="bool" label="Activar canales Rumanos?" default="false" enable="true"/>
+  </category>
 </settings>
