@@ -354,23 +354,24 @@ def comprobarActualizaciones():
 		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
 		return True
 	else:
-		if version < Leer:
-			Actualizacion = dialogo.ok('Nueva Actualización', '¿Quieres actualizar el plugin ahora?')
-			if Actualizacion == True:
-				if os.path.isfile(Actualizacionn):
-					ContinuarActualizacion = dialogo.ok('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
-					if ContinuarActualizacion == True:
-						ReiniciarXBMC = dialogo.ok('Reinicio Requerido','Es necesario reiniciar el xbmc','para que se instale la actualizacion.')
-						zip = zipfile.ZipFile(Actualizacionn)
-						zip.extractall(RUTAPLUGIN)
-						zip.close()
-						os.remove(Actualizacionn)
-						xbmc.executebuiltin("RestartApp()")
-					else:
-						xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-				else:
+		if os.path.isfile(Actualizacionn) == True:
+			ContinuarActualizacion = dialogo.yesno('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
+			if ContinuarActualizacion == True:
+				ReiniciarXBMC = dialogo.ok('Reinicio Requerido','Es necesario reiniciar el xbmc','para que se instale la actualizacion.')
+				zip = zipfile.ZipFile(Actualizacionn)
+				zip.extractall(RUTAPLUGIN)
+				zip.close()
+				os.remove(Actualizacionn)
+				xbmc.executebuiltin("RestartApp()")
+			else:
+				InstAct = dialogo.ok('Instalar Actualización','Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+				#xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+		else:
+			if version < Leer:
+				Actualizacion = dialogo.yesno('Nueva Actualización', '¿Quieres descargarla ahora?')
+				if Actualizacion == True:
 					from resources.lib.actualizarplugin import DownloaderClass
-					quieresactualizar = dialogo.ok('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
+					quieresactualizar = dialogo.yesno('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
 					if quieresactualizar == True:
 						ReiniciarXBMC = dialogo.ok('Reinicio Requerido','Es necesario reiniciar el xbmc','para que se instale la actualizacion.')
 						zip = zipfile.ZipFile(Actualizacionn)
@@ -380,14 +381,15 @@ def comprobarActualizaciones():
 						xbmc.executebuiltin("RestartApp()")
 					else:
 						luego = dialogo.ok('Instalar Despues', 'Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+				else:
+					adios = dialogo.ok('Actualización Recomendada', 'Es necesario que instales la actualización','La proxima vez instalala, para mejorar el plugin')
+					#xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+					#sys.exit([0])
 			else:
-				adios = dialogo.ok('Nos vemos', 'La proxima vez actualiza el plugin ;)')
-				xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-				sys.exit([0])
-		else:
-			pass
+				pass
 
 def main(BASE):
+    '''dialogo.notification('Notificación','Prueba del mensaje de notificaciones de xbmcgui.dialog()',xbmcgui.NOTIFICATION_INFO,5000)'''
     parms=get_params()
     if 'link' in parms and 'tk' in parms:
         '''if parms['tk'] == 'telecinco':
