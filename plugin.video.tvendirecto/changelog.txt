@@ -1,0 +1,43 @@
+﻿[B]Version 1.0.0[/B]
+- Primera versión pública
+
+[B]Version 0.9.8[/B]
+- Añadido: Sistema de actualizacion del plugin (En fases BETA, pero funcional) (djd2)
+
+[B]Version 0.9.3[/B]
+- Corregido: EPG de todos los canales (disponibles en la guía de "El Mundo") (xbmcero)
+
+[B]Version 0.9.2[/B]
+- Corregido: logotipos de todos los canales (xbmcero)
+
+[B]Version 0.8.2[/B]
+- Añadido: icono y fanart (xbmcero)
+- Actualizado: revisados todos los archivos y reorganización alfabética de los canales (xbmcero)
+
+[B]Version 0.7.2[/B]
+- Añadido: funciones de login y comprobaciones varias (djd2)
+
+[B]Version 0.6.2[/B]
+- Añadido: archivos necesarios para el login y notificaciones (djd2)
+
+[B]Version 0.5.2[/B]
+- Añadido: opción de login con cuenta de XBMCSPAIN (djd2)
+- Añadido: secciones de configuraciones y países (djd2)
+
+[B]Version 0.4.2[/B]
+- Añadido: carpeta de imágenes para notificaciones (djd2)
+
+[B]Version 0.3.2[/B]
+- Añadido: clasificación de los canales por categorías (djd2)
+
+[B]Version 0.2.2[/B]
+- Añadido: opción para ocultar los canales para adultos (xbmcero)
+
+[B]Version 0.1.2[/B]
+- Añadido: canales para adultos (djd2)
+
+[B]Version 0.0.2[/B]
+- Sustituido: links originales por los links de los canales españoles (djd2)
+
+[B]Version 0.0.1[/B]
+- Versión inicial

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<streams>
+<stream>
+<id>867b8c82</id>
+<title><![CDATA[La 1]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.rtve.es/swf/4.1.11/RTVEPlayerVideo.swf]]></swfUrl>
+<link><![CDATA[rtmp://cp68975.live.edgefcs.net:1935/live]]></link>
+<pageUrl><![CDATA[http://www.rtve.es/noticias/directo-la-1]]></pageUrl>
+<playpath><![CDATA[LA1_AKA_WEB_NOG@58877]]></playpath>
+<language><![CDATA[]]></language>
+<advanced><![CDATA[]]></advanced>
+<logourl>http://msabanda.eresmas.com/por/tv1.png</logourl>
+<epgid>elmundo:3</epgid>
+</stream>
+<stream>
+<id>867b8c82</id>
+<title><![CDATA[La 1 opcion 2]]></title>
+<info resolution="" bitrate="" lastUpdated="1341364873"/>
+<swfUrl><![CDATA[http://www.ucaster.eu/static/scripts/eplayer.swf]]></swfUrl>
+<link><![CDATA[rtmp://50.22.223.52/live/la1lacajatv?id=24785]]></link>
+<pageUrl><![CDATA[http://www.ucaster.eu/]]></pageUrl>
+<playpath><![CDATA[]]></playpath>
+<language><![CDATA[]]></language>
+<advanced><![CDATA[conn=S:OK live=true]]></advanced>
+<logourl>http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1000px-Logo_TVE-1.svg.png</logourl>
+<epgid>elmundo:3</epgid>
+</stream>
+</streams>
