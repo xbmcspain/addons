@@ -20,40 +20,68 @@ notiinf = os.path.join(opciones.getAddonInfo('path'),'resources/imagenes/noti_in
 notimail = os.path.join(opciones.getAddonInfo('path'),'resources/imagenes/noti_mail.png')
 
 def Notificaciones(title,message,times,icon):
-        xbmc.executebuiltin("XBMC.Notification("+title+","+message+","+times+","+icon+")")
+    xbmc.executebuiltin("XBMC.Notification("+title+","+message+","+times+","+icon+")")
+        
+def MensajesSinLeer(source):
+    unmensaje = '\<strong\>1\</strong\>\smensaje\ssin\sleer'
+    dosmensajes = '\<strong\>2\</strong\>\smensajes\ssin\sleer'
+    tresmensajes = '\<strong\>3\</strong\>\smensajes\ssin\sleer'
+    cuatromensajes = '\<strong\>4\</strong\>\smensajes\ssin\sleer'
+    masdecuatro = '\<strong\>5\</strong\>\smensajes\ssin\sleer'
+    if re.search(unmensaje,source,re.IGNORECASE):
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tienes 1 MP sin leer','3000',notimail)
+    elif re.search(dosmensajes,source,re.IGNORECASE):
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tienes 2 MPs sin leer','3000',notimail)
+    elif re.search(tresmensajes,source,re.IGNORECASE):
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tienes 3 MPs sin leer','3000',notimail)
+    elif re.search(cuatromensajes,source,re.IGNORECASE):
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tienes 4 MPs sin leer','3000',notimail)
+    elif re.search(masdecuatro,source,re.IGNORECASE):
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tienes 5 MPs o mas sin leer','3000',notimail)
+        return True
+    else:
+        xbmc.sleep(3000)
+        Notificaciones('Mensajes Privados','tampoco tienes MPs sin leer','3000',notimail)
+        return False
 		
 def MensajesPrivados(source):
-	unmensaje = '\<strong\>1\</strong\>\smensaje\ssin\sleer'
-	dosmensajes = '\<strong\>2\</strong\>\smensajes\ssin\sleer'
-	tresmensajes = '\<strong\>3\</strong\>\smensajes\ssin\sleer'
-	cuatromensajes = '\<strong\>4\</strong\>\smensajes\ssin\sleer'
-	masdecuatro = '\<strong\>5\</strong\>\smensajes\ssin\sleer'
-	unmsj = '\<strong\>1\</strong\>\snuevo\smensaje\sprivado'
-	dosmsj = '\<strong\>2\</strong\>\snuevos\smensajes\sprivados'
-	tresmsj = '\<strong\>3\</strong\>\snuevos\smensajes\sprivados'
-	cuatromsj = '\<strong\>4\</strong\>\snuevos\smensajes\sprivados'
-	masdefour = '\<strong\>5\</strong\>\snuevos\smensajes\sprivados'
-	notienes = 'No tienes mensajes nuevos'
-	if re.search(unmensaje,source,re.IGNORECASE) or re.search(unmsj,source,re.IGNORECASE):
-		Notificaciones('Mensajes Privados','Tienes 1 MP nuevo sin leer','4000',notimail)
-	elif re.search(dosmensajes,source,re.IGNORECASE) or re.search(dosmsj,source,re.IGNORECASE):
-		Notificaciones('Mensajes Privados','Tienes 2 MPs nuevos sin leer','4000',notimail)
-	elif re.search(tresmensajes,source,re.IGNORECASE) or re.search(tresmsj,source,re.IGNORECASE):
-		Notificaciones('Mensajes Privados','Tienes 3 MPs nuevos sin leer','4000',notimail)
-	elif re.search(cuatromensajes,source,re.IGNORECASE) or re.search(cuatromsj,source,re.IGNORECASE):
-		Notificaciones('Mensajes Privados','Tienes 4 MPs nuevos sin leer','4000',notimail)
-	elif re.search(masdecuatro,source,re.IGNORECASE) or re.search(masdefour,source,re.IGNORECASE):
-		Notificaciones('Mensajes Privados','Tienes 5 MPs nuevos o mas sin leer','4000',notimail)
-		return True
-	else:
-		Notificaciones('Mensajes Privados',notienes,'4000',notimail)
-		return False
+    unmsj = '\<strong\>1\</strong\>\snuevo\smensaje\sprivado'
+    dosmsj = '\<strong\>2\</strong\>\snuevos\smensajes\sprivados'
+    tresmsj = '\<strong\>3\</strong\>\snuevos\smensajes\sprivados'
+    cuatromsj = '\<strong\>4\</strong\>\snuevos\smensajes\sprivados'
+    masdefour = '\<strong\>5\</strong\>\snuevos\smensajes\sprivados'
+    if re.search(unmsj,source,re.IGNORECASE):
+        Notificaciones('Mensajes Privados','Tienes 1 MP Nuevo y','3000',notimail)
+        MensajesSinLeer(source)
+    elif re.search(dosmsj,source,re.IGNORECASE):
+        Notificaciones('Mensajes Privados','Tienes 2 MPs Nuevos y','3000',notimail)
+        MensajesSinLeer(source)
+    elif re.search(tresmsj,source,re.IGNORECASE):
+        Notificaciones('Mensajes Privados','Tienes 3 MPs Nuevos y','3000',notimail)
+        MensajesSinLeer(source)
+    elif re.search(cuatromsj,source,re.IGNORECASE):
+        Notificaciones('Mensajes Privados','Tienes 4 MPs Nuevos y','3000',notimail)
+        MensajesSinLeer(source)
+    elif re.search(masdefour,source,re.IGNORECASE):
+        Notificaciones('Mensajes Privados','Tienes 5 MPs Nuevos o mas y','3000',notimail)
+        MensajesSinLeer(source)
+        return True
+    else:
+        Notificaciones('Mensajes Privados','No tienes MPs nuevos pero','3000',notimail)
+        MensajesSinLeer(source)
+        return False
 
 def check_login(source,username):
     logged_in_string = 'Desconectarse'
     if re.search(logged_in_string,source,re.IGNORECASE):
         if NotiActiva == 'false':
-            Notificaciones('Bienvenido de nuevo',username+' , disfruta como siempre','4000',notimail)
+            Notificaciones('Bienvenido de nuevo  '+username+'','disfruta como siempre','3000',notiinf)
+            xbmc.sleep(3000)
             Privads = MensajesPrivados(source)
 
         return True
