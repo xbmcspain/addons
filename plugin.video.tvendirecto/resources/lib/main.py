@@ -340,54 +340,108 @@ def listVideos(BASE,src=0,lang='',chan=-1):
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
     #MenuEmer = ['Añadir a Favoritos','Eliminar de Favoritos']
     #ret = MENUDIALOGO.select('Choose a playlist', MenuEmer)
+    
+def ErrorActualizaciones():
+    Notificaciones('Error de Actualizaciones','El archivo de comparacion no existe','3000',notierror)
+    xbmc.sleep(5000)
+    Notificaciones('Error de Actualizaciones','Se comprobara el enlace secundario espera','5000',notierror)
+    xbmc.sleep(7000)
+    print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe en el servidor, no es un problema del usuario.'
+    print 'comprobarActualizaciones: Error... Se comprobara el enlace en el servidor secundario.'
+    XML1 = urllib.urlopen('http://playstationstorelibre.eshost.es/descargas/backup/addon.xml')
+    Leer1 = XML1.read()
+    XML1.close()
+    print Leer1
+    if version < Leer1:
+        Notificaciones('Archivo Encontrado','Iniciando sistema de Actualizacion','5000',notiinf)
+        xbmc.sleep(5000)
+        BackupActualizaciones()
+    else:
+        pass
+    
+def BackupActualizaciones():
+    XML = urllib.urlopen('http://playstationstorelibre.eshost.es/descargas/backup/addon.xml')
+    Leer = XML.read()
+    XML.close()
+    print Leer # en el log del xbmc escribe la version del xml
+    if os.path.isfile(Actualizacionn) == True:
+        ContinuarActualizacion = dialogo.yesno('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
+        if ContinuarActualizacion == True:
+            zip = zipfile.ZipFile(Actualizacionn)
+            zip.extractall(RUTAPLUGIN)
+            zip.close()
+            os.remove(Actualizacionn)
+            xbmc.executebuiltin("UpdateLocalAddons")
+            dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','')
+            xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+        else:
+            InstAct = dialogo.ok('Instalar Actualización','Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+            #xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+    else:
+        if version < Leer:
+            Actualizacion = dialogo.yesno('Nueva Actualización', '¿Quieres descargarla ahora?')
+            if Actualizacion == True:
+                from resources.lib.actualizarbackup import DownloaderClass
+                quieresactualizar = dialogo.yesno('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
+                if quieresactualizar == True:
+                    zip = zipfile.ZipFile(Actualizacionn)
+                    zip.extractall(RUTAPLUGIN)
+                    zip.close()
+                    os.remove(Actualizacionn)
+                    xbmc.executebuiltin("UpdateLocalAddons")
+                    dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','')
+                    xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+                else:
+                    luego = dialogo.ok('Instalar Despues', 'Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+            else:
+                adios = dialogo.ok('Actualización Recomendada', 'Es necesario que instales la actualización','La proxima vez instalala, para mejorar el plugin')
+        else:
+            pass
 	
 def comprobarActualizaciones():
-	ErrorArchivo = 'ERROR'
-	XML = urllib.urlopen('http://playstationstorelibre.eshost.es/descargas/addon.xml')
-	Leer = XML.read()
-	XML.close()
-	print Leer # en el log del xbmc escribe la version del xml
+    ErrorArchivo = 'ERROR'
+    XML = urllib.urlopen('http://playstationstorelibre.eshost.es/descargas/addon.xml')
+    Leer = XML.read()
+    XML.close()
+    print Leer # en el log del xbmc escribe la version del xml
 
-	if re.search(ErrorArchivo,Leer,re.IGNORECASE):
-		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
-		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
-		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
-		return True
-	else:
-		if os.path.isfile(Actualizacionn) == True:
-			ContinuarActualizacion = dialogo.yesno('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
-			if ContinuarActualizacion == True:
-				zip = zipfile.ZipFile(Actualizacionn)
-				zip.extractall(RUTAPLUGIN)
-				zip.close()
-				os.remove(Actualizacionn)
-				xbmc.executebuiltin("UpdateLocalAddons")
-				dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','Inicia el plugin de nuevo!')
-				xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-			else:
-				InstAct = dialogo.ok('Instalar Actualización','Cuando inicies otra vez el plugin','Se te volvera a preguntar')
-				#xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-		else:
-			if version < Leer:
-				Actualizacion = dialogo.yesno('Nueva Actualización', '¿Quieres descargarla ahora?')
-				if Actualizacion == True:
-					from resources.lib.actualizarplugin import DownloaderClass
-					quieresactualizar = dialogo.yesno('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
-					if quieresactualizar == True:
-						zip = zipfile.ZipFile(Actualizacionn)
-						zip.extractall(RUTAPLUGIN)
-						zip.close()
-						os.remove(Actualizacionn)
-						xbmc.executebuiltin("UpdateLocalAddons")
-						dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','Inicia el plugin de nuevo!')
-						xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-					else:
-						luego = dialogo.ok('Instalar Despues', 'Cuando inicies otra vez el plugin','Se te volvera a preguntar')
-				else:
-					adios = dialogo.ok('Actualización Recomendada', 'Es necesario que instales la actualización','La proxima vez instalala, para mejorar el plugin')
-			else:
-				pass
-				
+    if re.search(ErrorArchivo,Leer,re.IGNORECASE):
+        ErrorActualizaciones()
+    else:
+        if os.path.isfile(Actualizacionn) == True:
+            ContinuarActualizacion = dialogo.yesno('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
+            if ContinuarActualizacion == True:
+                zip = zipfile.ZipFile(Actualizacionn)
+                zip.extractall(RUTAPLUGIN)
+                zip.close()
+                os.remove(Actualizacionn)
+                xbmc.executebuiltin("UpdateLocalAddons")
+                dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','')
+                xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+            else:
+                InstAct = dialogo.ok('Instalar Actualización','Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+                #xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+        else:
+            if version < Leer:
+                Actualizacion = dialogo.yesno('Nueva Actualización', '¿Quieres descargarla ahora?')
+                if Actualizacion == True:
+                    from resources.lib.actualizarplugin import DownloaderClass
+                    quieresactualizar = dialogo.yesno('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
+                    if quieresactualizar == True:
+                        zip = zipfile.ZipFile(Actualizacionn)
+                        zip.extractall(RUTAPLUGIN)
+                        zip.close()
+                        os.remove(Actualizacionn)
+                        xbmc.executebuiltin("UpdateLocalAddons")
+                        dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','')
+                        xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
+                    else:
+                        luego = dialogo.ok('Instalar Despues', 'Cuando inicies otra vez el plugin','Se te volvera a preguntar')
+                else:
+                    adios = dialogo.ok('Actualización Recomendada', 'Es necesario que instales la actualización','La proxima vez instalala, para mejorar el plugin')
+            else:
+                pass
+
 
 def main(BASE):
     '''dialogo.notification('Notificación','Prueba del mensaje de notificaciones de xbmcgui.dialog() de la version GOTHAM',xbmcgui.NOTIFICATION_INFO,5000)'''
@@ -404,9 +458,9 @@ def main(BASE):
     elif 'src' in parms:
         listLanguages(BASE,parms['src'])
     else:
+        comprobarActualizaciones()
         checkAutoupdateEPG()
         listSources(BASE)
-        comprobarActualizaciones()
         
 	msgBienve1 = __settings__.getSetting('msgBienvenida')
 	
