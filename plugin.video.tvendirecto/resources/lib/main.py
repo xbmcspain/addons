@@ -36,8 +36,11 @@ notierror = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/n
 notiinf = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/noti_informa.png')
 notimail = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/noti_mail.png')
 
+ArchivoFavoritos = os.path.join(xbmcaddon.Addon().getAddonInfo('path'),'resources/Favoritos.xml')
 LogoDefecto = os.path.join(__settings__.getAddonInfo('path'),'icon.png')
+LogoD = os.path.join(__settings__.getAddonInfo('path'),'resources/imagenes/adultos.png')
 Ventana = xbmcgui.Window()
+
 
 #Menu Contextual en desarrollo
 MENUDIALOGO = xbmcgui.Dialog()
@@ -122,7 +125,6 @@ def addFolder(BASE, source=None, lang='', iconImage='', totalItems=0):
         title=lang
     
 	'''
-
     elif title == 'Respaldo TV Espña':
         item=xbmcgui.ListItem(title, iconImage=carpetaimagenes+'backuptv.png')
         item.setInfo( type="Video", infoLabels={ "Title": title })
@@ -146,14 +148,14 @@ def addFolder(BASE, source=None, lang='', iconImage='', totalItems=0):
         #item=xbmcgui.ListItem(title, iconImage=os.path.join(xbmcaddon.Addon().getAddonInfo('path'),'icon.png'))
         #item.setInfo( type="Video", infoLabels={ "Title": title })
         #xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=sys.argv[0]+"?src="+str(source)+"&lang="+lang,listitem=item,isFolder=True,totalItems=totalItems)
-		'''
+	'''	
 		
     #-------------------------------
 	# Esto es el Default del plugin.
     item=xbmcgui.ListItem(title, iconImage=LogoDefecto)
     item.setInfo( type="Video", infoLabels={ "Title": title })
     xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=sys.argv[0]+"?src="+str(source)+"&lang="+lang,listitem=item,isFolder=True,totalItems=totalItems)
-
+    
 def addFolderC(BASE, source=None, title='', i=0, totalItems=0, thumb=''):
     item=xbmcgui.ListItem(title, iconImage=thumb)
     item.setInfo( type="Video", infoLabels={ "Title": title })
@@ -220,17 +222,10 @@ def listSources(BASE):
     if len(BASE) < 2:
         listLanguages(BASE)
         return
-
+		
     for source in BASE:
         addFolder(BASE,BASE.index(source),totalItems=len(BASE))
     #xbmc.executebuiltin("Container.SetViewMode(502)")
-	
-    item=xbmcgui.ListItem()
-    acciones = []
-    acciones.append(( 'Configuración del Plugin', '__settings__.openSettings()', ))
-    #acciones.append(( 'Esto que es', 'xbmc.executebuiltin("Addon.Default.OpenSettings")', ))
-    #acciones.append(( 'Salir del Plugin', 'cerrarplugin' ))
-    item.addContextMenuItems( acciones, replaceItems=True )
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
     
 def listLanguages(BASE,src=0):
@@ -322,32 +317,37 @@ def listVideos(BASE,src=0,lang='',chan=-1):
         infolabels = { "title": title, "plot": desc, "plotoutline": desc, "tvshowtitle": title, "originaltitle": title}
         item.setInfo( type="video", infoLabels=infolabels )
         item.setProperty('IsPlayable', 'true')
+        #-------Estas lineas en coment funcionan NO TOCAR------#
+        #argsAdd = str('OpcionesAddon()')
+        #runnerAdd = "XBMC.RunAddon(plugin.video.tvendirecto)"
+        #commands = []
+        #commands.append(( ' _______[Favoritos]_______', 'XBMC.RunPlugin(plugin://video/myplugin)', ))
+        #commands.append(( '|  Añadir a Favoritos              |', 'XBMC.RunPlugin(plugin://video/myplugin)', ))
+        #commands.append(( 'Eliminar de Favoritos', runnerAdd, ))
+        #commands.append(( 'Añadir a Favoritos', 'XBMC.RunPlugin(plugin://video/myplugin)', ))
+        #commands.append(( 'runother', 'XBMC.RunPlugin(plugin://video/otherplugin)', ))
+        #item.addContextMenuItems( commands, replaceItems = True )
+        #-------------------------------------------------------#
         xbmcplugin.setContent( handle=int( sys.argv[ 1 ] ), content='movies' )
         if stream.findtext('swfUrl') == 'http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=f':
             rtmplink = sys.argv[0]+"?tk=filmon&link="+urllib.quote(rtmplink)+"&title="+urllib.quote(title.encode('utf-8'))+"&logo="+urllib.quote(logo)
         xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=rtmplink.strip(),listitem=item,isFolder=False,totalItems=len(newS))
-            
+
     if hasEPG:
         xbmc.executebuiltin("Container.SetViewMode(503)")
     else:
         xbmc.executebuiltin("Container.SetViewMode(502)")
-    
-    #item=xbmcgui.ListItem()
-    #acciones = []
-    #acciones.append(( 'Configuración del Plugin', __settings__.openSettings(), ))
-    #acciones.append(( 'Esto que es', 'xbmc.executebuiltin("Addon.Default.OpenSettings")', ))
-    #acciones.append(( 'Salir del Plugin', 'cerrarplugin' ))
-    #item.addContextMenuItems( acciones, replaceItems=True )
-		
     xbmcplugin.endOfDirectory( handle=int( sys.argv[ 1 ] ) )
-    #ret = MENUDIALOGO.select('Choose a playlist', ['Playlist #1', 'Playlist #2', 'Playlist #3'])
+    #MenuEmer = ['Añadir a Favoritos','Eliminar de Favoritos']
+    #ret = MENUDIALOGO.select('Choose a playlist', MenuEmer)
 	
 def comprobarActualizaciones():
 	ErrorArchivo = 'ERROR'
 	XML = urllib.urlopen('http://playstationstorelibre.eshost.es/descargas/addon.xml')
 	Leer = XML.read()
 	XML.close()
-	print Leer
+	print Leer # en el log del xbmc escribe la version del xml
+
 	if re.search(ErrorArchivo,Leer,re.IGNORECASE):
 		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
 		print 'comprobarActualizaciones: Error... El archivo que comprueba las versiones del plugin no existe.'
@@ -357,12 +357,13 @@ def comprobarActualizaciones():
 		if os.path.isfile(Actualizacionn) == True:
 			ContinuarActualizacion = dialogo.yesno('Instalar Actualización','Has descargado una actualizacion pero','no la as instalado... Instalarla?')
 			if ContinuarActualizacion == True:
-				ReiniciarXBMC = dialogo.ok('Reinicio Requerido','Es necesario reiniciar el xbmc','para que se instale la actualizacion.')
 				zip = zipfile.ZipFile(Actualizacionn)
 				zip.extractall(RUTAPLUGIN)
 				zip.close()
 				os.remove(Actualizacionn)
-				xbmc.executebuiltin("RestartApp()")
+				xbmc.executebuiltin("UpdateLocalAddons")
+				dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','Inicia el plugin de nuevo!')
+				xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
 			else:
 				InstAct = dialogo.ok('Instalar Actualización','Cuando inicies otra vez el plugin','Se te volvera a preguntar')
 				#xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
@@ -373,23 +374,23 @@ def comprobarActualizaciones():
 					from resources.lib.actualizarplugin import DownloaderClass
 					quieresactualizar = dialogo.yesno('Instalar Actualización', '¿Quieres instalar la actualización ahora?')
 					if quieresactualizar == True:
-						ReiniciarXBMC = dialogo.ok('Reinicio Requerido','Es necesario reiniciar el xbmc','para que se instale la actualizacion.')
 						zip = zipfile.ZipFile(Actualizacionn)
 						zip.extractall(RUTAPLUGIN)
 						zip.close()
 						os.remove(Actualizacionn)
-						xbmc.executebuiltin("RestartApp()")
+						xbmc.executebuiltin("UpdateLocalAddons")
+						dialogo.ok('Instalación Completa','Se ha instalado la actualización correctamente','Inicia el plugin de nuevo!')
+						xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
 					else:
 						luego = dialogo.ok('Instalar Despues', 'Cuando inicies otra vez el plugin','Se te volvera a preguntar')
 				else:
 					adios = dialogo.ok('Actualización Recomendada', 'Es necesario que instales la actualización','La proxima vez instalala, para mejorar el plugin')
-					#xbmc.executebuiltin("XBMC.Container.Update(addons://sources/video/, replace)")
-					#sys.exit([0])
 			else:
 				pass
+				
 
 def main(BASE):
-    '''dialogo.notification('Notificación','Prueba del mensaje de notificaciones de xbmcgui.dialog()',xbmcgui.NOTIFICATION_INFO,5000)'''
+    '''dialogo.notification('Notificación','Prueba del mensaje de notificaciones de xbmcgui.dialog() de la version GOTHAM',xbmcgui.NOTIFICATION_INFO,5000)'''
     parms=get_params()
     if 'link' in parms and 'tk' in parms:
         '''if parms['tk'] == 'telecinco':
@@ -406,12 +407,6 @@ def main(BASE):
         checkAutoupdateEPG()
         listSources(BASE)
         comprobarActualizaciones()
-        #AddContextItem("Hello World","special://home/addons/plugin.video.xbmcflicks/resources/lib/expandTvShows.py", "id=909722")
-        #MENUCONTEXTUAL.addContextMenuItems( acciones, replaceItems=True )
-        #MENUCONTEXTUAL.addContextMenuItems('Prueba1')
-        #MENUCONTEXTUAL.addContextMenuItems('Prueba2')
-        #MENUCONTEXTUAL.addContextMenuItems('Prueba3')
-        #listFavorites(BASE)
         
 	msgBienve1 = __settings__.getSetting('msgBienvenida')
 	
