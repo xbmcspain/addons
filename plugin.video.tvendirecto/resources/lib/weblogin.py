@@ -29,24 +29,18 @@ def MensajesSinLeer(source):
     cuatromensajes = '\<strong\>4\</strong\>\smensajes\ssin\sleer'
     masdecuatro = '\<strong\>5\</strong\>\smensajes\ssin\sleer'
     if re.search(unmensaje,source,re.IGNORECASE):
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tienes 1 MP sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tienes 1 MP sin leer','4000',notimail)
     elif re.search(dosmensajes,source,re.IGNORECASE):
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tienes 2 MPs sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tienes 2 MPs sin leer','4000',notimail)
     elif re.search(tresmensajes,source,re.IGNORECASE):
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tienes 3 MPs sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tienes 3 MPs sin leer','4000',notimail)
     elif re.search(cuatromensajes,source,re.IGNORECASE):
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tienes 4 MPs sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tienes 4 MPs sin leer','4000',notimail)
     elif re.search(masdecuatro,source,re.IGNORECASE):
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tienes 5 MPs o mas sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tienes 5 MPs o mas sin leer','4000',notimail)
         return True
     else:
-        xbmc.sleep(3000)
-        Notificaciones('Mensajes Privados','tampoco tienes MPs sin leer','3000',notimail)
+        Notificaciones('Mensajes Privados','tampoco tienes MPs sin leer','4000',notimail)
         return False
 		
 def MensajesPrivados(source):
@@ -56,23 +50,29 @@ def MensajesPrivados(source):
     cuatromsj = '\<strong\>4\</strong\>\snuevos\smensajes\sprivados'
     masdefour = '\<strong\>5\</strong\>\snuevos\smensajes\sprivados'
     if re.search(unmsj,source,re.IGNORECASE):
-        Notificaciones('Mensajes Privados','Tienes 1 MP Nuevo y','3000',notimail)
+        Notificaciones('Mensajes Privados','Tienes 1 MP Nuevo y','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
     elif re.search(dosmsj,source,re.IGNORECASE):
-        Notificaciones('Mensajes Privados','Tienes 2 MPs Nuevos y','3000',notimail)
+        Notificaciones('Mensajes Privados','Tienes 2 MPs Nuevos y','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
     elif re.search(tresmsj,source,re.IGNORECASE):
-        Notificaciones('Mensajes Privados','Tienes 3 MPs Nuevos y','3000',notimail)
+        Notificaciones('Mensajes Privados','Tienes 3 MPs Nuevos y','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
     elif re.search(cuatromsj,source,re.IGNORECASE):
-        Notificaciones('Mensajes Privados','Tienes 4 MPs Nuevos y','3000',notimail)
+        Notificaciones('Mensajes Privados','Tienes 4 MPs Nuevos y','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
     elif re.search(masdefour,source,re.IGNORECASE):
-        Notificaciones('Mensajes Privados','Tienes 5 MPs Nuevos o mas y','3000',notimail)
+        Notificaciones('Mensajes Privados','Tienes 5 MPs Nuevos o mas y','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
         return True
     else:
-        Notificaciones('Mensajes Privados','No tienes MPs nuevos pero','3000',notimail)
+        Notificaciones('Mensajes Privados','No tienes MPs nuevos pero','4000',notimail)
+        xbmc.sleep(3000)
         MensajesSinLeer(source)
         return False
 
